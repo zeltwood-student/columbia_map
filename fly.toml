@@ -1,0 +1,24 @@
+credit: gemini
+prompted by marcel ortiz
+app = "columbia_map"  # Replace with your desired Fly.io app name
+
+[build]
+  image = "python:3.10-slim-buster"  # Or your preferred Python version
+
+[deploy]
+  release_command = "pip install -r requirements.txt && python your_app_script.py" # Adjust the script name
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[http_service.ports]]
+  port = 80
+  handlers = ["http"]
+
+[[http_service.ports]]
+  port = 443
+  handlers = ["tls", "http"]

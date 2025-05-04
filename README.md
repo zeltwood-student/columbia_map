@@ -7,7 +7,8 @@ https://docs.google.com/document/d/1ufYBMYYEM6n5E1wEFQi_lfQwAwqWyc7FB1TDPZF8rPU/
 I was inspired to make this for my final because I was really excited about the map project, and knew that it could be done better. 
 All data is stored in one clean json file, no need for exporting data from caltopo, taking full advantage of GIS software for a real mapping program!
 
-Also, I recall you mentioned you considered including Streamlit to be used in your future assignments. I recommend NiceGUI over Streamlit. 
+Also, I recall you mentioned you considered including Streamlit to be used in your future assignments. 
+I recommend NiceGUI over Streamlit. https://nicegui.io
 Very easy to use, with a lot more control. Can even add CSS and HTML code if desired, and able to host as a real web app unlike Streamlit.
 
 > "We at Zauberzeug like Streamlit but find it does too much magic when it comes to state handling. In search for an alternative nice library to write simple graphical user interfaces in Python we discovered JustPy."

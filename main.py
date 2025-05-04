@@ -557,3 +557,8 @@ with ui.row().classes('w-full justify-center mt-4'):
 # --- Run the App ---
 # Set the title of the web page
 ui.run(title='Columbia Pathfinder 2.0')
+
+
+# P.S.
+# Thank you for class, Joe!
+# I had a great time. :)

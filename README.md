@@ -1,6 +1,9 @@
 columbia_map 2.0
 marcel the coolest
 
+My QGIS Data Preparation Workflow Documentation:
+https://docs.google.com/document/d/1ufYBMYYEM6n5E1wEFQi_lfQwAwqWyc7FB1TDPZF8rPU/edit?usp=sharing
+
 I was inspired to make this for my final because I was really excited about the map project, and knew that it could be done better. 
 All data is stored in one clean json file, no need for exporting data from caltopo, taking full advantage of GIS software for a real mapping program!
 
